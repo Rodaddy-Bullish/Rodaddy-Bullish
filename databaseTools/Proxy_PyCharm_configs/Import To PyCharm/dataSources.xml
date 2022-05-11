@@ -1,0 +1,99 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Prod Ctrl" read-only="true" group="_Prod" uuid="faceff99-372b-4b83-b68e-3acdde87a5e4">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12502/b1x-ha-prod-ctrl</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Internal [Proxy login]" read-only="true" group="Pub" uuid="af35604f-cd77-4ea0-924c-6309554a4160">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12403/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Staging [Proxy login]" read-only="true" group="Dev" uuid="ed1c57c1-dbf9-4735-acd9-65e93fd73a67">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12305/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="BugBounty - Pub" group="Pub" uuid="f2d0c3d1-4e01-4077-a1c4-388b8d9c0239">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12401/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Custody UAT  [Proxy login]" read-only="true" group="Dev" uuid="b7e99e2f-f456-4f26-a94b-d455ef5d4f35">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12303/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Prod Custody trans" read-only="true" group="_Prod" uuid="ac2be8db-5e8f-4949-b7c2-5be307707a89">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12503/b1x-ha-prod-custody-transactions</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Prod PII" read-only="true" group="_Prod" uuid="d3532a9a-5bca-4f7f-9ce7-ba0b5e85fb97">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12505/b1x-ha-prod-pii</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Custody Dev  [Proxy login]" read-only="true" group="Dev" uuid="77d90d96-2938-44db-9dac-d9271804381b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12304/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Dev [Proxy login]" read-only="true" group="Dev" uuid="fa894488-ccff-44c2-808f-c5c5fcd507b5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12302/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Prod Cordis-trans" read-only="true" group="_Prod" uuid="6f7789eb-9cf5-4538-ace0-b1ea80c2557f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12501/b1x-ha-prod-cordis-transactions</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <time-zone>America/New_York</time-zone>
+    </data-source>
+    <data-source source="LOCAL" name="SimNext [Proxy login]" group="Pub" uuid="fe4fb628-5850-4373-9086-1f5ed4aafadb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12402/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="UAT [Proxy login]" read-only="true" group="Dev" uuid="6aa027b6-0533-46d7-8320-0002038e39b3">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:12301/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</application>

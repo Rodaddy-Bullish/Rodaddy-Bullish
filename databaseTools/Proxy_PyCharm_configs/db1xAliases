@@ -1,0 +1,17 @@
+# Change path to fix needs
+export DB1X='/Users/rico.rojas/Development/databaseTools/configs/'
+export PATH=$PATH:$DB1X
+
+
+#Kills All running cloud_sql_proxy sessions
+alias dbProxyStop='killall cloud_sql_proxy'
+
+
+#Kills All running cloud_sql_proxy sessions, then starts proxy for all DB's
+alias dbProxyStart='dbProxyStop; $DB1X/dbAll.sh'
+
+alias dbDev='dbProxyStop; $DB1X/dbDev.sh'
+alias dbProd='dbProxyStop; $DB1X/dbProd.sh'
+alias dbPub='dbProxyStop; $DB1X/dbPub.sh'
+
+
