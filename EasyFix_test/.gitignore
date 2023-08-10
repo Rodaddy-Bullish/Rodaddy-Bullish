@@ -1,3 +1,7 @@
 .idea/
 **/.DS_Store
 /vEnv/
+*/quickfix-1.15.1-M1Build/
+/logs/
+/sessions/
+/vEnv_3_10/
