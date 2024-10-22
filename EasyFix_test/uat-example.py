@@ -7,6 +7,15 @@ import quickfix44 as fix44
 
 import easyfix
 
+# Fix Server =  uat-fix-z4h5
+# Comp ID FIX: updateParentId RICO 222000000047671
+
+# Comp ID FIX: updateParentId RICOINST 555931023504736
+
+
+# Comp ID FIX: updateParentId SCOTTFIX 555879913692466
+
+
 if __name__ == '__main__':
 
 

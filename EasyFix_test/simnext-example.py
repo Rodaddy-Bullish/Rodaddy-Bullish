@@ -10,7 +10,7 @@ import easyfix
 if __name__ == '__main__':
 
 # Fix Server = simnext-fix-55dx
-# Comp ID FIX: updateParentId RICO 1222000000000041
+# Comp ID FIX: updateParentId RICO 222000000000041
 
     easyfix.enable_logging()
 
